@@ -1,1 +1,13 @@
-<p>quotes-detail works!</p>
+<div id="appender">
+    <p>{{quotes.quotes}}</p>
+    <p>{{quotes.author}}</p>
+    <p>posted {{quotes.completeDate|dateCount}}</p>
+    <button class="btn btn-danger btn-sm" (click)='quoteDelete(true)'>Delete</button>
+    <br>
+    <div class="buttons">
+        <button class="btn primary btn-lg" (click)='like()'>Like {{upvote}}
+            </button>
+        <button id="three" class="btn btn-danger btn-lg" (click)='unlike()'>Dislike {{downvote}}</button>
+
+    </div>
+</div>
