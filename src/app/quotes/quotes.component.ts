@@ -16,8 +16,8 @@ export class QuotesComponent implements OnInit {
     new Quotes(2, 'John Doe', 'Dr. Suess', 'You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.', new Date(2020, 8, 10)),
     new Quotes(3, 'Brandon Githinji', 'Mark Caine', 'The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.', new Date(2020, 8, 11)),
     new Quotes(4, 'Hamsoace', 'Hellen Keller', 'When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us', new Date(2020, 10, 12)),
-    new Quotes(5, 'Kendy Rono', 'Mahatma Gandhi', 'lorem ipsum', new Date(2020, 10, 12)),
-    new Quotes(6, 'Dorcas Muthaya', 'Mahatma Gandhi', 'lorem ipsum', new Date(2020, 10, 12))
+    new Quotes(5, 'Kendy Rono', 'Mark Twain', 'Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do', new Date(2020, 10, 12)),
+    new Quotes(6, 'Dorcas Muthaya', 'David Brinkely', 'A successful man is one who can lay a firm foundation with the bricks others have thrown at him', new Date(2020, 10, 12))
   ]
 
   addNewQuote (quotes){
