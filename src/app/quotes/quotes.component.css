@@ -26,3 +26,14 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+    
+    .navbar {
+        background-color: #4663cd;
+        min-height: 40px;
+        color: #fff;
+        position: relative;
+    }
+    
+    h2 {
+        text-align: center;
+    }
