@@ -1,27 +1,52 @@
 # Quotebook
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+A web application, built on angular JS where users can write, review and/or delete quotes.
 
-## Development server
+By Hamisi Andale
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+A web application, built on angular JS where users can write, review and/or delete quotes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Inspire People
 
-## Build
+Here's what you need to do:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Visit the website at https://hamsoace.github.io/quotebook/
+Read and get inspired from the quotes you find below
+You can also add your own quotes on the app in the form below the quotes
+You get to see the quote posted on the page
+You can like or dislike the quotes you find there or the one you manage to add
+You get to see the quote with the highest likes highlighted in a purple background color.
+Development
+To make advancements/modifications, follow these steps:
 
-## Running unit tests
+## Fork the repository
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Create a new branch (git checkout -b improve-feature)
+Make the appropriate changes in the files
+Add changes made
+Commit your changes (git commit -am 'Improve feature')
+Push to the branch (git push origin improve-feature)
+Create a Pull Request
 
-## Running end-to-end tests
+# Figma Design
+This is the link to the figma](https://figma.com) design.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Technologies Used
+This project was generated with Angular CLI version 12.18.3. The technologies used are HTML, CSS, Typescript and Bootstrap.
 
-## Further help
+## Support and contact details
+Should you be unable to access the website, have any recommendations and/or questions, feel free to email me:hamsoace@gmail.com
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## To-do
+Store quote entries in a database
+Improve functionality of voting buttons to ensure one can only like OR dislike a quote
+
+
+## [License](https://github.com/hamsoace/quotebook/master/LICENSE)
+
+Copyright (c) 2020 [Hamisi Andale](https://github.com/hamsoace)
+
+
+
