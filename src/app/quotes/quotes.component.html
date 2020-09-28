@@ -1,19 +1,15 @@
 <div class="container-fluid">
     <h2>YOUR QUOTES</h2>
     <!-- <h3>hello worlds</h3> -->
-    <div class="col-md-6">
-        <div *ngFor="let quotes of quotes; let i = 'index'">
-            <ul id="quotes">
-                <li>{{quotes.publisher}} posted on {{quotes.completeDate|dateCount}}</li>
+    <div class="col-md-6" class="float-d">
+        <div *ngFor="let quotes of quotes; let i = 'index'" class="quote-details">
+            <div id="quotes">
+                <div class="col-md-3">{{quotes.publisher}} posted on {{quotes.completeDate|dateCount}}</div>
                 <app-quotes-detail [quotes]='quotes' (isComplete)='deleteQuote($event,i)'>
 
                 </app-quotes-detail>
-            </ul>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <app-quotes-forms (addQuotes)="addNewQuote($event)">
-
-        </app-quotes-forms>
-    </div>
+    <app-quotes-forms (addQuotes)="addNewQuote($event)"></app-quotes-forms>
 </div>
