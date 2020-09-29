@@ -31,7 +31,7 @@ Push to the branch (git push origin improve-feature)
 Create a Pull Request
 
 # Figma Design
-This is the link to the [figma](https://figma.com) design.
+This is the link to the [figma](https://www.figma.com/file/JEOYeORNHRKyYNdNvlbuCC/Untitled) design.
 
 ## Technologies Used
 This project was generated with Angular CLI version 12.18.3. The technologies used are HTML, CSS, Typescript and Bootstrap.
