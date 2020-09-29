@@ -17,10 +17,3 @@
     .like {
         color: blue;
     }
-    
-    button {
-        padding-left: 10px;
-        margin: 10px;
-        box-shadow: 1px solid grey;
-        cursor: pointer;
-    }

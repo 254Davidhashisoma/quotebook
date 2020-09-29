@@ -7,7 +7,7 @@
                         <label for="publisher">Published By</label>
                         <input type="text" class="form-control" id="publisher" [(ngModel)]="newQuotes.publisher" name="publisher" #publisher="ngModel" required>
                         <div [hidden]="publisher.valid || publisher.pristine" class="alert alert-primary">
-                            <p>Input is Required</p>
+                            <p>Input Required</p>
                         </div>
                     </div>
                     <div class="form-group">
@@ -15,7 +15,7 @@
                         <input type="text" class="form-control" id="author" [(ngModel)]="newQuotes.author" name="author" #author="ngModel" required>
 
                         <div [hidden]="author.valid || author.pristine" class="alert alert-primary">
-                            <p> Input is Required</p>
+                            <p> Input Required</p>
 
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                         <label for="quote">Quote</label>
                         <textarea class="form-control" id="description" [(ngModel)]="newQuotes.quotes" name="quotes" #quote="ngModel" required></textarea>
                         <div [hidden]="quote.valid || quote.pristine" class="alert alert-primary">
-                            <p>Input is Required</p>
+                            <p>Input Required</p>
                         </div>
                     </div>
                     <button type="Submit" class="btn btn-success btn-lg">Submit Quote</button>
