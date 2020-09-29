@@ -44,7 +44,7 @@ Store quote entries in a database
 Improve functionality of voting buttons to ensure one can only like OR dislike a quote
 
 
-## [License](https://github.com/hamsoace/quotebook/master/LICENSE)
+## [License](https://github.com/hamsoace/quotebook/LICENSE)
 
 Copyright (c) 2020 [Hamisi Andale](https://github.com/hamsoace)
 
