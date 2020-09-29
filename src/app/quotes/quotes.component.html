@@ -15,6 +15,7 @@
                 <app-quotes-detail [quotes]='quotes' (isComplete)='deleteQuote($event,i)'>
 
                 </app-quotes-detail>
+                <i class="fas fa-trash" (click)='deleteQuotes(true)'></i>
 
             </div>
         </div>

@@ -43,3 +43,8 @@
         font-size: 60px;
         font-weight: bold;
     }
+    
+    i {
+        cursor: pointer;
+        color: red;
+    }
