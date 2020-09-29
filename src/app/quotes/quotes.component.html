@@ -5,7 +5,7 @@
 
     </div>
 </nav>
-<div class="container-fluid">
+<div class="container">
 
     <!-- <h3>hello worlds</h3> -->
     <div class="col-md-8" class="float-d">
@@ -15,8 +15,9 @@
                 <app-quotes-detail [quotes]='quotes' (isComplete)='deleteQuote($event,i)'>
 
                 </app-quotes-detail>
+
             </div>
         </div>
     </div>
-    <app-quotes-forms (addQuotes)="addNewQuote($event)" class="col-12"></app-quotes-forms>
+    <app-quotes-forms (addQuotes)=" addNewQuote($event) " class="col-12 "></app-quotes-forms>
 </div>

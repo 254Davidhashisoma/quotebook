@@ -1,14 +1,13 @@
 <div id="appender">
-    <p>{{quotes.quotes}}</p>
-    <p>{{quotes.author}}</p>
-    <p>posted {{quotes.completeDate|dateCount}}</p>
+    <p class="the-quote">{{quotes.quotes}}</p>
+    <p class="quote-author"> {{quotes.author}}</p>
+    <p class="date-count">posted {{quotes.completeDate|dateCount}}</p>
 
     <br>
     <div class="buttons">
-        <button class="btn-primary btn-lg" (click)='like()'>Like {{upvote}}
-            </button>
-        <button id="three" class="btn btn-danger btn-lg" (click)='unlike()'>Dislike {{downvote}}</button>
+        <i class="fas fa-like" (click)='like()'>Like {{upvote}}</i>
+        <i (click)='unlike()'>Dislike {{downvote}}</i>
+        <i class="fas-fa bin" (click)='deleteQuotes(true)'>Delete</i>
 
     </div>
-    <button class="btn btn-outline-danger btn-sm" (click)='quoteDelete(true)'>Delete</button>
 </div>

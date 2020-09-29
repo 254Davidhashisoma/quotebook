@@ -32,9 +32,9 @@
         min-height: 40px;
         color: #fff;
         position: relative;
-        display: flex;
-        flex-direction: column;
+        display: block;
         margin-bottom: 10px;
+        font-family: 'Blippo', fantasy;
     }
     
     h2 {
